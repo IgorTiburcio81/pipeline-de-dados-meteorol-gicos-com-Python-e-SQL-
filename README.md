@@ -26,9 +26,9 @@ git clone https://github.com/IgorTiburcio81/pipeline-de-dados-meteorol-gicos-com
 cd pipeline-de-dados-meteorol-gicos-com-Python-e-SQL-
 ```
 ### Instale os pacotes necessários
-
+```bash
 pip install pandas requests jupyter sqlite3
-
+```
 ## 📁 Estrutura do Projeto
 📦 pipeline-de-dados-meteorológicos
 
