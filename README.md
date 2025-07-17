@@ -27,7 +27,7 @@ cd pipeline-de-dados-meteorol-gicos-com-Python-e-SQL-
 ```
 ### Instale os pacotes necessários
 ```bash
-pip install pandas requests jupyter sqlite3
+pip install pandas requests sqlite3
 ```
 ## 📁 Estrutura do Projeto
 📦 pipeline-de-dados-meteorológicos
