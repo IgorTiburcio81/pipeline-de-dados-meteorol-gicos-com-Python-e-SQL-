@@ -31,8 +31,11 @@ pip install pandas requests jupyter sqlite3
 
 ## 📁 Estrutura do Projeto
 📦 pipeline-de-dados-meteorológicos
+
 ├── APAC.py/                 # Scripts Python para automação da pipeline
+
 ├── prec.db                  # Arquivo de banco de dados (SQLite)
+
 └── README.md                # Este arquivo
 
 Fonte: APAC - Agência Pernambucana de Águas e Clima
