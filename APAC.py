@@ -46,7 +46,7 @@ normalized_cols = df_pivotado.columns.str.lower().str.strip()
 df_pivotado = df_pivotado.loc[:, ~normalized_cols.duplicated()]
 
 #Depositando em um banco de dados
-engine = create_engine('sqlite:///prec.db')
-df_pivotado.to_sql('Prec_PE', engine, if_exists='replace', index=True)
+engine = create_engine('sqlite:///precipitacao_pe.db')
+df_pivotado.to_sql('Prec_PE', engine, if_exists='append', index=True)
 
 
